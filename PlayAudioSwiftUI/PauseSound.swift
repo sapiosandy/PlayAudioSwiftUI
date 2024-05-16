@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import AVFoundation
+
+func pauseSound() {
+    if let player = audioPlayer {
+            player.pause()
+            UserDefaults.standard.set(player.currentTime, forKey: "PlaybackPosition")
+        }
+}
+

@@ -11,6 +11,10 @@
 		AF19D4082BF6476D000C1238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19D4072BF6476D000C1238 /* ContentView.swift */; };
 		AF19D40A2BF6476E000C1238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF19D4092BF6476E000C1238 /* Assets.xcassets */; };
 		AF19D40D2BF6476E000C1238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF19D40C2BF6476E000C1238 /* Preview Assets.xcassets */; };
+		AF19D4142BF64A04000C1238 /* CurbYourEnthusiasm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF19D4132BF64A04000C1238 /* CurbYourEnthusiasm.mp3 */; };
+		AF19D4162BF64AE3000C1238 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19D4152BF64AE3000C1238 /* PlaySound.swift */; };
+		AF19D4182BF64C4B000C1238 /* StopSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19D4172BF64C4B000C1238 /* StopSound.swift */; };
+		AF19D41A2BF64DD3000C1238 /* PauseSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19D4192BF64DD3000C1238 /* PauseSound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AF19D4072BF6476D000C1238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF19D4092BF6476E000C1238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF19D40C2BF6476E000C1238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF19D4132BF64A04000C1238 /* CurbYourEnthusiasm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CurbYourEnthusiasm.mp3; sourceTree = "<group>"; };
+		AF19D4152BF64AE3000C1238 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		AF19D4172BF64C4B000C1238 /* StopSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopSound.swift; sourceTree = "<group>"; };
+		AF19D4192BF64DD3000C1238 /* PauseSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseSound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			children = (
 				AF19D4052BF6476D000C1238 /* PlayAudioSwiftUIApp.swift */,
 				AF19D4072BF6476D000C1238 /* ContentView.swift */,
+				AF19D4192BF64DD3000C1238 /* PauseSound.swift */,
+				AF19D4152BF64AE3000C1238 /* PlaySound.swift */,
+				AF19D4172BF64C4B000C1238 /* StopSound.swift */,
 				AF19D4092BF6476E000C1238 /* Assets.xcassets */,
+				AF19D4132BF64A04000C1238 /* CurbYourEnthusiasm.mp3 */,
 				AF19D40B2BF6476E000C1238 /* Preview Content */,
 			);
 			path = PlayAudioSwiftUI;
@@ -127,6 +139,7 @@
 			files = (
 				AF19D40D2BF6476E000C1238 /* Preview Assets.xcassets in Resources */,
 				AF19D40A2BF6476E000C1238 /* Assets.xcassets in Resources */,
+				AF19D4142BF64A04000C1238 /* CurbYourEnthusiasm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF19D41A2BF64DD3000C1238 /* PauseSound.swift in Sources */,
 				AF19D4082BF6476D000C1238 /* ContentView.swift in Sources */,
+				AF19D4182BF64C4B000C1238 /* StopSound.swift in Sources */,
+				AF19D4162BF64AE3000C1238 /* PlaySound.swift in Sources */,
 				AF19D4062BF6476D000C1238 /* PlayAudioSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
